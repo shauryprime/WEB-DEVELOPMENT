@@ -45,3 +45,31 @@ span{
     color: blue;
  }
 
+ h1:hover{
+   background-color: green;
+ }
+
+ li:hover{
+   color: white;
+ }
+
+ li:last-child{
+   color: cadetblue;
+ }
+
+ li:nth-child(2n){
+   color: skyblue;
+ }
+
+ h1::after{
+   content:" In The World";
+ }
+
+ h1::first-letter{
+   color: gray;
+ }
+
+ h1::selection{
+   color:yellow;
+   background-color: gold;
+ }

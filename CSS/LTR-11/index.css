@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+#wrapper{
+    /* background: linear-gradient(to right,red,rgb(27, 27, 160)); */
+    /* background: linear-gradient(45deg,  red,blue); */
+
+    /* background: radial-gradient(circle, skyblue,navy); */
+
+    /* background-image: conic-gradient(red,blue,white); */
+/* 
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuIwN4GWFZbcDXPSCiclVxZUitmE8CzYmhO3HUI4AUUw&s=10); */
+    /* background-repeat: no-repeat;
+    background-size: contain;
+    height: 1000px  ; */ 
+
+
+    border: 5px solid rgb(7, 7, 78); 
+    /* border-top: 5px solid yellow; */
+     
+    padding: 230px;
+
+    margin: 40px;
+
+    box-sizing: border-box;
+
+}
+.france{
+    margin: auto;
+    text-align: center;
+    border: 3px groove blue;
+}
+.dc{
+      border: 3px groove rgb(121, 50, 50);
+      width: 100px;
+      margin: auto;
+}
+
+.air{
+    border: 3px solid  yellowgreen;
+    width: 50px;
+    height: 10px;
+    margin: auto;
+    background-color: pink;
+    padding: 20px;
+}
+
+p{
+  /* padding: 40px; */
+
+  /* padding-left: 20px; */
+
+   border: 2px solid rgb(72, 10, 43);
+
+  /* padding: top right bottom left; */
+  /* padding:  0 30px 0 12px ; */
+  padding: 40px 0 15px ;
+
+
+
+
+}

@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+h1{
+    border: 2px groove navy;
+    text-align: center;
+}
+
+.box{
+    display: inline-block;
+    border: 1px solid yellowgreen;
+    width: 100px;
+
+    height: 60px;
+    /* margin: 10px; */
+    position: relative;
+    background-color: rgb(167, 137, 197);
+    text-align: center;
+    /* left: 70px;
+    bottom: 40px; */
+}
+
+#wrapper{
+    border:20px groove rgb(255, 0, 30) ;
+    padding: 100px;
+    height: 100vw;
+}
+
+p{
+    border: 1px solid green;
+    /* display:none ;
+    visibility: hidden;      */
+}
+
+#cp3{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+
+#cp2{
+    position: sticky;
+
+    top: 20px;
+}
+
+.boxes{
+    height: 400px;
+}
+
+#cp7{
+    position: fixed;
+    top: 30px;
+}
+
+#cp1{
+    position: relative;
+    left: 50px;
+    background-color: yellow;
+    z-index: -1;
+}
